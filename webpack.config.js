@@ -3,13 +3,12 @@ const webpack = require("webpack");
 //const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "/src/index.js",
   output: {
-    path: path.join(__dirname, "build"),
-    publicPath: '/build',
-    filename: "index_bundle.js"
+    path: path.join(__dirname, "dist"),
+    publicPath: '/dist',
+    filename: "bundle.js"
   },
-  mode: 'development',
   module: {
     rules: [
       {
@@ -62,14 +61,4 @@ module.exports = {
     // Enable importing JS / JSX files without specifying their extension
     extensions: [".js", ".jsx", ".tsx", ".ts"],
   },
-  // devServer: {
-  //   static: {
-  //     directory: path.join(__dirname, '/src'),
-  //   },
-  //   proxy: {
-  //     '/': 'http://localhost:3000'
-  //   },
-  //   compress: true,
-  //   port: 8080,
-  // },
 };
