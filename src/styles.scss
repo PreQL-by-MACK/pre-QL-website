@@ -1,0 +1,24 @@
+body {
+  background-color: aquamarine;
+
+  .Navbar {
+    background-color: rgba(94,23,235,255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .links {
+      a {
+        font-family: 'Walter';
+        text-decoration: none;
+        color: white;
+        margin: 10px
+      }
+    }
+    .logo {
+      margin: 10px
+    }
+  }
+
+
+}

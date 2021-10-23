@@ -9,6 +9,7 @@ module.exports = {
     publicPath: '/dist',
     filename: "bundle.js"
   },
+  mode: process.env.NODE_ENV,
   module: {
     rules: [
       {
@@ -61,4 +62,15 @@ module.exports = {
     // Enable importing JS / JSX files without specifying their extension
     extensions: [".js", ".jsx", ".tsx", ".ts"],
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, '/src'),
+    },
+    hot: true,
+    proxy: {
+      '/': 'http://localhost:3000'
+    },
+    compress: true,
+    port: 9000
+  }
 };

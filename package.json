@@ -6,7 +6,7 @@
   "scripts": {
     "start": "NODE_ENV=development webpack serve --open",
     "build": "rm -rf dist && webpack --mode development",
-    "dev": "nodemon server/server.js"
+    "dev": "NODE_ENV=development webpack server --open & nodemon server/server.js"
   },
   "keywords": [],
   "author": "",
