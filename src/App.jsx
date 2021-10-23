@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <h1>
-      PREQL GANG
+      FREE THE PREQL BOYZ
     </h1>
   )
 }
