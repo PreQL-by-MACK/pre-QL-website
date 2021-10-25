@@ -1,14 +1,23 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const MainPage = () => {
+
+  const github = <FontAwesomeIcon style={{color: "black"}} icon={faGithub} />
+  const linkedIn = <FontAwesomeIcon icon={faLinkedin} />
+
   return(
     <div className="body-div">
 
       <section
-        className="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+        id="downloadSection"
+        className="bg-dark text-light"
+        //className="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
       >
         <div className="container">
-          <div className="d-sm-flex align-items-center justify-content-between">
+          <div className="d-sm-flex">
+          {/* <div className="d-sm-flex align-items-center justify-content-between"> */}
             <div>
               <h1><span className="purple">Visualize </span>your<span className="purple"> PostgreSQL </span>database.</h1>
               <p className="lead my-4">
@@ -251,8 +260,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/connortracy19/"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/Ctrace12"><i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/connortracy19/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/Ctrace12">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
@@ -271,8 +280,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/adiavishalom/"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/adiavishalom"><i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/adiavishalom/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/adiavishalom">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
@@ -291,8 +300,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/michaelodonnell18/"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/michaelodonnell18"><i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/michaelodonnell18/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/michaelodonnell18">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
@@ -311,8 +320,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/kyledkim/"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/kyledkim"><i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/kyledkim/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/kyledkim">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
