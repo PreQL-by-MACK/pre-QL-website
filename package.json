@@ -6,7 +6,7 @@
   "homepage": ".",
   "scripts": {
     "start": "NODE_ENV=development webpack server --open",
-    "build": "rm -rf dist && webpack --mode production",
+    "build": "webpack --mode production",
     "dev": "NODE_ENV=development webpack server --open & nodemon server/server.js"
   },
   "keywords": [],
