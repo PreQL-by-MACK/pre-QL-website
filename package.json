@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "start": "NODE_ENV=development webpack server --open",
     "build": "rm -rf dist && webpack --mode production",
