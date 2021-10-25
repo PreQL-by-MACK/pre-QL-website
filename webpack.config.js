@@ -62,7 +62,9 @@ module.exports = {
     // Enable importing JS / JSX files without specifying their extension
     extensions: [".js", ".jsx", ".tsx", ".ts"],
   },
-  plugins: [new HtmlWebPackPlugin()],
+  plugins: [new HtmlWebPackPlugin({
+    template: './src/index.html',
+  })],
   devServer: {
     static: {
       directory: path.join(__dirname, '/src'),
