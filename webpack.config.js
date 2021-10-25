@@ -1,6 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
-//const HtmlWebPackPlugin = require("html-webpack-plugin");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "/src/index.js",
@@ -62,6 +62,7 @@ module.exports = {
     // Enable importing JS / JSX files without specifying their extension
     extensions: [".js", ".jsx", ".tsx", ".ts"],
   },
+  plugins: [new HtmlWebPackPlugin()],
   devServer: {
     static: {
       directory: path.join(__dirname, '/src'),
