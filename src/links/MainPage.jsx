@@ -97,7 +97,7 @@ const MainPage = () => {
                 <div className="h1 mb-3">
                   <i className="bi bi-arrow-repeat"></i>
                 </div>
-                <h3 className="card-title mb-3">Generator</h3>
+                <h3 className="card-title mb-3">Seamless</h3>
                 {upArrows}
                 <p className="card-text">
                   Seamless SQL query generations.
