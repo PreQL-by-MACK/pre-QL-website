@@ -5,17 +5,18 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     .links {
       a {
-        font-family: 'Walter';
+        // font-family: 'Walter';
         text-decoration: none;
         color: white;
         margin: 10px
       }
     }
     .logo {
-      margin: 10px
+      margin: 10px;
+      max-height: 50px;
     }
   }
 
@@ -49,7 +50,9 @@ body {
   }
   
   .filter-preql {
-    filter: invert(25%) sepia(99%) saturate(5588%) hue-rotate(254deg) brightness(105%) contrast(102%);
+    filter: invert(27%) sepia(110%) saturate(8278%) hue-rotate(255deg) brightness(100%) contrast(101%);
+    max-height: 200px;
+    max-width: 200px;
   }
   
   #map {
@@ -70,8 +73,6 @@ body {
     flex-direction: column;
     margin: 15px;
     color:white;
-    width:100%;
-    flex-shrink: 10;
     #profile{
       background-color: #6D33FF;
       padding: 15px;

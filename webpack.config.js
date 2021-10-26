@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         // Now we apply rule for images
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
             // Using file-loader for these files
@@ -51,6 +51,10 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
       },
       // {
       //   test: /\.(png|jpg)$/,

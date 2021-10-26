@@ -1,11 +1,19 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+import CT from './img/ct.jpeg';
+import Mike from './img/mike.jpeg';
+import Kyle from './img/kyle.jpeg';
+import Adi from './img/adi.jpeg';
+
+import database from './img/database1.png';
+//import fundamentals from './img/fundamentals.svg'
 
 const MainPage = () => {
 
   const github = <FontAwesomeIcon style={{color: "black"}} icon={faGithub} />
-  const linkedIn = <FontAwesomeIcon icon={faLinkedin} />
+  const linkedIn = <FontAwesomeIcon style={{color: "black"}} icon={faLinkedin} />
 
   return(
     <div className="body-div">
@@ -39,8 +47,8 @@ const MainPage = () => {
               </button>
             </div>
             <img
-              className="filter-preql img-fluid w-50 d-none d-sm-block"
-              src="img/database.svg"
+              className="filter-preql img-fluid w-50 d-none d-sm-block text-white"
+              src={database}
               alt=""
             />
           </div>
@@ -56,6 +64,7 @@ const MainPage = () => {
                   <i className="bi bi-laptop"></i>
                 </div>
                 <h3 className="card-title mb-3">Interactive</h3>
+                <img src={fundamentals}/>
                 <p className="card-text">
                   Interactive and easy to use GUI.
                 </p>
@@ -68,7 +77,7 @@ const MainPage = () => {
                 <div className="h1 mb-3">
                   <i className="bi bi-stack"></i>
                 </div>
-                <h3 className="card-title mb-3">Queryless</h3>
+                <h3 className="card-title mb-3">Query-less</h3>
                 <p className="card-text">
                   Cached table transformations.
                 </p>
@@ -81,9 +90,9 @@ const MainPage = () => {
                 <div className="h1 mb-3">
                   <i className="bi bi-arrow-repeat"></i>
                 </div>
-                <h3 className="card-title mb-3">Automatic</h3>
+                <h3 className="card-title mb-3">Generator</h3>
                 <p className="card-text">
-                  Automatic SQL query generations.
+                  SQL query generations.
                 </p>
               </div>
             </div>
@@ -250,7 +259,7 @@ const MainPage = () => {
             <div className="card bg-light">
               <div className="card-body text-center">
                 <img
-                  src="img/ct.jpeg"
+                  src={CT}
                   className="rounded-circle mb-3"
                   alt=""
                   width="128"
@@ -270,7 +279,7 @@ const MainPage = () => {
             <div className="card bg-light">
               <div className="card-body text-center">
                 <img
-                  src="img/adi.jpeg"
+                  src={Adi}
                   className="rounded-circle mb-3"
                   alt=""
                   width="128"
@@ -290,7 +299,7 @@ const MainPage = () => {
             <div className="card bg-light">
               <div className="card-body text-center">
                 <img
-                  src="img/mike.jpeg"
+                  src={Mike}
                   className="rounded-circle mb-3"
                   alt=""
                   width="128"
@@ -310,7 +319,7 @@ const MainPage = () => {
             <div className="card bg-light">
               <div className="card-body text-center">
                 <img
-                  src="img/kyle.jpeg"
+                  src={Kyle}
                   className="rounded-circle mb-3"
                   alt=""
                   width="128"
@@ -345,7 +354,6 @@ const MainPage = () => {
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossOrigin="anonymous"
     ></script>
-
   </div>
   )
 }

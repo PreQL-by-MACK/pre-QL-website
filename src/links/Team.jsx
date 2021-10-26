@@ -1,13 +1,15 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
-
+import CT from './img/ct.jpeg';
+import Mike from './img/mike.jpeg';
+import Kyle from './img/kyle.jpeg';
+import Adi from './img/adi.jpeg';
 
 const Team = () => {
   
-  const github = <FontAwesomeIcon style={{color: "black"}} icon={faGithub} />
-  const linkedIn = <FontAwesomeIcon style={{color: "black"}} icon={faLinkedin} />
+  const github = <FontAwesomeIcon style={{color: "white"}} icon={faGithub} />
+  const linkedIn = <FontAwesomeIcon style={{color: "white"}} icon={faLinkedin} />
 
   return (
       <section id="instructors" className="p-5 bg-dark">
@@ -19,7 +21,7 @@ const Team = () => {
               <div style={{backgroundColor: "#6D33FF"}} className="card flex-row justify-content-around">
                 <div id="profile" className="text-center">
                   <img
-                    src="/img/ct.jpeg"
+                    src={CT}
                     className="rounded-circle mb-3"
                     alt=""
                     width="128"
@@ -57,7 +59,7 @@ in the opportunities they had to offer. But then I picked up the basic of coding
               <div style={{backgroundColor: "#6D33FF"}} className="card flex-row justify-content-around">
                 <div id="profile" className="text-center">
                   <img
-                    src="/img/adi.jpeg"
+                    src={Adi}
                     className="rounded-circle mb-3"
                     alt=""
                     width="128"
@@ -77,7 +79,7 @@ in the opportunities they had to offer. But then I picked up the basic of coding
                   </a>
                 </div>
                 <div className="teamInfo">
-                  <p>NA best kat</p>
+                  <p>I was working at a Finance company called NorthPoint Commercial Finance. I landed the job just before the pandemic hit and was able to maintain the job even though I was a brand new employee. It was nice but it was not really my passion. I just graduated college and didn't know where I wanted to be or what I wanted to do. Even though my company had an internal job board and made it easy to move up, I just wasn't interested in the opportunities they had to offer. But then I picked up the basic of coding in late April / Early May and here I am</p>
                 </div>
               </div>
             </div>
@@ -89,7 +91,7 @@ in the opportunities they had to offer. But then I picked up the basic of coding
               <div style={{backgroundColor: "#6D33FF"}} className="card flex-row justify-content-around">
                 <div id="profile" className="text-center">
                   <img
-                    src="img/mike.jpeg"
+                    src={Mike}
                     className="rounded-circle mb-3"
                     alt=""
                     width="128"
@@ -124,7 +126,7 @@ combination of aspiration and knowledge of code.</p>
               <div style={{backgroundColor: "#6D33FF"}} className="card flex-row justify-content-around">
                 <div id="profile" className="text-center">
                   <img
-                    src="/img/ct.jpeg"
+                    src={Kyle}
                     className="rounded-circle mb-3"
                     alt=""
                     width="128"
