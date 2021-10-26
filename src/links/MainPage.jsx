@@ -30,7 +30,7 @@ const MainPage = () => {
             <div>
               <h1><span className="purple">Visualize </span>your<span className="purple"> PostgreSQL </span>database.</h1>
               <p className="lead my-4">
-                PreQL is an interactive PostgreSQL visualization tool that provides developers with the ability to easily visualize their databases with cached, queryless requests to the backend and automatically generate SQL queries.
+                PreQL is an interactive PostgreSQL visualization tool that provides developers with the ability to easily visualize their databases with cached, query-less requests to the backend and seamlessly generate SQL queries.
               </p>
               <button
                 className="btn white purple-background btn-lg"
@@ -91,7 +91,7 @@ const MainPage = () => {
                 <div className="h1 mb-3">
                   <i className="bi bi-arrow-repeat"></i>
                 </div>
-                <h3 className="card-title mb-3">Generator</h3>
+                <h3 className="card-title mb-3">Seamless</h3>
                 <p className="card-text">
                   SQL query generations.
                 </p>
