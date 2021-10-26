@@ -35,6 +35,7 @@
     "@svgr/cli": "^5.5.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.5.0",
     "nodemon": "^2.0.14",
     "react-hot-loader": "^4.13.0",
     "sass": "^1.43.3",
