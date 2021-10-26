@@ -277,8 +277,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/connortracy19/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/Ctrace12">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/connortracy19/">{linkedIn}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/Ctrace12">{github}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
@@ -297,8 +297,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/adiavishalom/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/adiavishalom">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/adiavishalom/">{linkedIn}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/adiavishalom">{github}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
@@ -337,8 +337,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/kyledkim/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/kyledkim">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/kyledkim/">{linkedIn}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/kyledkim">{github}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
