@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import {} from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
 
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
@@ -15,6 +15,11 @@ const MainPage = () => {
 
   const github = <FontAwesomeIcon style={{color: "black"}} icon={faGithub} />
   const linkedIn = <FontAwesomeIcon style={{color: "black"}} icon={faLinkedin} />
+  const react = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faReact} />
+  const databaseSmall = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faDatabase} />
+  const upArrows = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faAngleDoubleUp} />
+  // "#61DBFB" react blue
+  // "#6D33FF" preql purple
 
   return(
     <div className="body-div">
@@ -65,7 +70,7 @@ const MainPage = () => {
                   <i className="bi bi-laptop"></i>
                 </div>
                 <h3 className="card-title mb-3">Interactive</h3>
-                
+                {react}
                 <p className="card-text">
                   Interactive and easy to use GUI.
                 </p>
@@ -79,6 +84,7 @@ const MainPage = () => {
                   <i className="bi bi-stack"></i>
                 </div>
                 <h3 className="card-title mb-3">Query-less</h3>
+                {databaseSmall}
                 <p className="card-text">
                   Cached table transformations.
                 </p>
@@ -92,6 +98,7 @@ const MainPage = () => {
                   <i className="bi bi-arrow-repeat"></i>
                 </div>
                 <h3 className="card-title mb-3">Generator</h3>
+                {upArrows}
                 <p className="card-text">
                   SQL query generations.
                 </p>
