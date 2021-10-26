@@ -317,8 +317,8 @@ const MainPage = () => {
                 <p className="card-text">
                   Co-founder / Software Engineer
                 </p>
-                <a href="https://www.linkedin.com/in/michaelodonnell18/">{github}<i className="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="https://github.com/michaelodonnell18">{linkedIn}<i className="bi bi-github text-dark mx-1"></i></a>
+                <a href="https://www.linkedin.com/in/michaelodonnell18/">{linkedIn}<i className="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="https://github.com/michaelodonnell18">{github}<i className="bi bi-github text-dark mx-1"></i></a>
               </div>
             </div>
           </div>
@@ -350,7 +350,7 @@ const MainPage = () => {
     <footer className="p-5 bg-dark text-white text-center position-relative">
       <div className="container">
         <p className="lead">Product developed under tech accelerator, <a href="https://opensourcelabs.io/">OS Labs</a></p>
-        <p className="lead"><a href="https://github.com/oslabs-beta/preql"><i className="bi bi-github text-light mx-1" style={{fontSize:"36px"}}></i></a></p>
+        <p className="lead"><a href="https://github.com/oslabs-beta/preql">{github}</a><a href="https://linkedin.company/preql/">{linkedIn}</a><i className="bi bi-github text-light mx-1" style={{fontSize:"36px"}}></i></p>
         <a href="#" className="position-absolute bottom-0 end-0 p-5">
           <i className="purple bi bi-arrow-up-circle h1"></i>
         </a>
