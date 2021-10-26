@@ -366,7 +366,7 @@ const MainPage = () => {
     <footer className="p-5 bg-dark text-white text-center position-relative">
       <div className="container" style={{color: "white"}}>
         <p className="lead">Product developed under tech accelerator, <a href="https://opensourcelabs.io/">OS Labs</a></p>
-        <p className="lead"><a href="https://linkedin.company/preql/">{linkedInWhite}</a><a href="https://github.com/oslabs-beta/preql">{githubWhite}</a><i className="bi bi-github text-light mx-1" style={{fontSize:"36px"}}></i></p>
+        <p className="lead"><a href="https://linkedin.com/company/preql/">{linkedInWhite}</a><a href="https://github.com/oslabs-beta/preql">{githubWhite}</a><i className="bi bi-github text-light mx-1" style={{fontSize:"36px"}}></i></p>
         <a href="#" className="position-absolute bottom-0 end-0 p-5">
           <i className="purple bi bi-arrow-up-circle h1"></i>
         </a>
