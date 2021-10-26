@@ -93,7 +93,7 @@ const MainPage = () => {
                 </div>
                 <h3 className="card-title mb-3">Seamless</h3>
                 <p className="card-text">
-                  SQL query generations.
+                  Seamless SQL query generations.
                 </p>
               </div>
             </div>
