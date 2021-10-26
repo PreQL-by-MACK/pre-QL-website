@@ -1,14 +1,16 @@
 import React from 'react'
+import preQL1 from './img/preQL1.gif';
+import preQL2 from './img/preQL2.gif';
 
 const Docs = () => {
   return (
     <div>
       <section id="questions" className="p-5">
         <div className="container">
-          <h2 className="text-left mb-4">Documentation</h2>
+          <h2 className="text-center mb-4" >Documentation</h2>
           <p>
             Implementing our app is as simple as ever! On the main page of our website 
-            you can find the links to downloading our application. Our app supports both Mac and Windows
+            you can find the links to download our application. Our app offers support for both Mac and Windows
             users, just make sure you download the right one.
           </p>
           {/* paste picture of link page here */}
@@ -17,14 +19,20 @@ const Docs = () => {
             This is where you will copy and paste your database link. Once you click submit, a table will generate
             and show the first table of your database! You can click through to visualize different tables within your database!
           </p>
-          {/* Paste picture of visualizer here! */}
+          <br></br>
+          <div className='gifContainer'>
+            <img src={preQL1} width='70%'/>
+          </div><br></br>
           <p>
             Below this visualizer is the core of our application, where you the user can test your SQL Queries
             without pinging your own database over and over again! We added functionality for you to compare two
-            different tables in however way you please! Below you will see an example of how this works using the famous
+            different tables in whatever way you please! Below you will see an example of how this works using the famous
             Star Wars API!
           </p>
-          {/* Past picture of generated query here*/}
+          <br></br>
+          <div className='gifContainer'>
+            <img src={preQL2} width='70%'/>
+          </div><br></br>
           <p>
             
           </p>
