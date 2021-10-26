@@ -41,13 +41,16 @@ const Team = () => {
                   </a>
                 </div>
                 <div className="teamInfo">
-                  <p>I was working at a Finance company called NorthPoint Commercial Finance. I landed the
-job just before the pandemic hit and was able to maintain the job even though I was a
-brand new employee. It was nice but it was not really my passion. I just graduated
-college and didn't know where I wanted to be or what I wanted to do. Even though my
-company had an internal job board and made it easy to move up, I just wasn't interested
-in the opportunities they had to offer. But then I picked up the basic of coding in late April
-/ Early May and here I am</p>
+                  <p>
+                    CT graduated from Coles College of Business with a Bachelors in Marketing from Kennesaw State University.
+                    He previosuly worked in Finance as a Data Analyst for a year before his transition to 
+                    the Software Engineering field with a keen enthusiasm for learning new concepts. Now he fully dedicates his 
+                    time to learning different languages and frameworks in order to benefit, not only himself, but his team as a whole. 
+                    He found his passion for utilizing Front-End frameworks and creative design patterns. And as our seasoned Full-Stack Software Engineer,
+                    he has devoted himself to building out our application with clean, DRY, reusable React components. He also serves 
+                    as a leader among his peers, seperating and delegating the tasks needed to create and maintain our fully functionally 
+                    application. He is a part of a few other open source projects such as LeetKids, Recipe2.0 where he serves as the Front-End Engineer.
+                  </p>
                 </div>
               </div>
             </div>
@@ -79,7 +82,7 @@ in the opportunities they had to offer. But then I picked up the basic of coding
                   </a>
                 </div>
                 <div className="teamInfo">
-                  <p>I was working at a Finance company called NorthPoint Commercial Finance. I landed the job just before the pandemic hit and was able to maintain the job even though I was a brand new employee. It was nice but it was not really my passion. I just graduated college and didn't know where I wanted to be or what I wanted to do. Even though my company had an internal job board and made it easy to move up, I just wasn't interested in the opportunities they had to offer. But then I picked up the basic of coding in late April / Early May and here I am</p>
+                  <p>Adi graduated from Brooklyn College with a BS in Applied Mathematics. He worked as a Verification Analysit, System Engineer and Software Engineer for large contracts from NASA and The MTA.</p>
                 </div>
               </div>
             </div>
@@ -111,10 +114,7 @@ in the opportunities they had to offer. But then I picked up the basic of coding
                   </a>
                 </div>
                 <div className="teamInfo">
-                  <p>I would love to be able to make an industry switch and turn ideas into reality through code. I've heard nothing but great
-things about coding from Codesmith grads and am excited to be able to learn a hard-skill that's in such high demand. I'm
-hoping to be able to land a job in the field and hopefully be able to start a business or get an idea off the ground using a
-combination of aspiration and knowledge of code.</p>
+                  <p>Mike graduated with a Bachelor of Arts from the State University of New York at New Paltz and was previously employed in a sales role where he'd work closely with a team of developers to tailor an online advertising product to his clients. Working with developers sparked a curiosity in how he could develop these solutions himself and provoked a career switch to web development. Mike is now looking to build the same kinds of front-end solutions for cthat he was so used to selling in years prior. </p>
                 </div>
               </div>
             </div>

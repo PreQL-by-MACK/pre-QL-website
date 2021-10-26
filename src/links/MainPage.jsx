@@ -13,13 +13,29 @@ import database from './img/database1.png';
 
 const MainPage = () => {
 
-  const github = <FontAwesomeIcon style={{color: "black"}} icon={faGithub} />
-  const linkedIn = <FontAwesomeIcon style={{color: "black"}} icon={faLinkedin} />
-  const react = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faReact} />
-  const databaseSmall = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faDatabase} />
-  const upArrows = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faAngleDoubleUp} />
-  // "#61DBFB" react blue
-  // "#6D33FF" preql purple
+  const whiteIcons = {
+    color: "white",
+    margin: '5px'
+  }
+
+  const blackIcons = {
+    color: "black"
+  }
+
+  const reactBlue = {
+    color: "#61DBFB"
+  }
+  const preQLPurple = {
+    color: "#6D33FF"
+  }
+
+  const github = <FontAwesomeIcon style={blackIcons} icon={faGithub} />
+  const linkedIn = <FontAwesomeIcon style={blackIcons} icon={faLinkedin} />
+  const react = <FontAwesomeIcon style={reactBlue} icon={faReact} />
+  const databaseSmall = <FontAwesomeIcon style={reactBlue} icon={faDatabase} />
+  const upArrows = <FontAwesomeIcon style={reactBlue} icon={faAngleDoubleUp} />
+  const githubWhite = <FontAwesomeIcon style={whiteIcons} icon={faGithub} />
+  const linkedInWhite = <FontAwesomeIcon style={whiteIcons} icon={faLinkedin} />
 
   return(
     <div className="body-div">
@@ -348,9 +364,9 @@ const MainPage = () => {
 
     {/* <!-- Footer --> */}
     <footer className="p-5 bg-dark text-white text-center position-relative">
-      <div className="container">
+      <div className="container" style={{color: "white"}}>
         <p className="lead">Product developed under tech accelerator, <a href="https://opensourcelabs.io/">OS Labs</a></p>
-        <p className="lead"><a href="https://github.com/oslabs-beta/preql">{github}</a><a href="https://linkedin.company/preql/">{linkedIn}</a><i className="bi bi-github text-light mx-1" style={{fontSize:"36px"}}></i></p>
+        <p className="lead"><a href="https://github.com/oslabs-beta/preql">{githubWhite}</a><a href="https://linkedin.company/preql/">{linkedInWhite}</a><i className="bi bi-github text-light mx-1" style={{fontSize:"36px"}}></i></p>
         <a href="#" className="position-absolute bottom-0 end-0 p-5">
           <i className="purple bi bi-arrow-up-circle h1"></i>
         </a>

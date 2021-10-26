@@ -54,6 +54,12 @@ body {
     max-height: 200px;
     max-width: 200px;
   }
+
+  .gifContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   #map {
     width: 100%;
