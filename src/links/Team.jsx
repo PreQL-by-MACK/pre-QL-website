@@ -146,11 +146,11 @@ const Team = () => {
                   </a>
                 </div>
                 <div className="teamInfo">
-                  <p>I graduated from the University of Maryland with a BS in Materials Science and
-Engineering. After graduating I worked for a small subcontracting company as a
-project manager. After about a year, I then joined a construction management
-company working on various projects in the MD area. I then hopped onto a project
-out in California for a large tech company doing program management for the past 2.5 years.</p>
+                  <p>
+                    Kyle is a passionate full-stack software engineer dedicated to creating seamless full-stack applications by utilizing both front-end and back-end frameworks.
+                    Before transitioning to software development, Kyle most recently spent several years in a program management role at a Fortune 500 internet services technology company.
+                    Kyle holds a B.S. in Materials Science and Engineering and a minor in Engineering Leadership Development from the University of Maryland, College Park.
+                  </p>
                 </div>
               </div>
             </div>
