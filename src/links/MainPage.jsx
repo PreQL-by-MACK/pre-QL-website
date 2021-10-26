@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {} from "@fortawesome/free-solid-svg-icons";
 
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
@@ -64,7 +65,7 @@ const MainPage = () => {
                   <i className="bi bi-laptop"></i>
                 </div>
                 <h3 className="card-title mb-3">Interactive</h3>
-                <img src={fundamentals}/>
+                
                 <p className="card-text">
                   Interactive and easy to use GUI.
                 </p>
