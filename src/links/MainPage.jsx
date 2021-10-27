@@ -78,7 +78,7 @@ const MainPage = () => {
                 Download for macOS
               </button>
               </a>
-              <a href="" download>
+              <a href="https://preql.s3.amazonaws.com/windows.zip" download>
               <button
                 className="btn white purple-background btn-lg"
                 data-bs-toggle="modal"
