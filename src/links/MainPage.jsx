@@ -2,11 +2,27 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
+// import ZipLoader from 'zip-loader';
+
+// const preql = new ZipLoader('/preql-darwin-x64.zip');
+
+// preql.load().then( function () {
+
+//   console.log( 'loaded!' );
+//   console.log( preql.files );
+
+//   var json = preql.extractAsJSON( '/preql-darwin-x64.zip/data.json' );
+//   console.log( json );
+
+// } );
+ 
+// preql.load();
 
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
 import Kyle from './img/kyle.jpeg';
 import Adi from './img/adi.jpeg';
+// import preql from './preql-darwin-x64.zip';
 
 import database from './img/database1.png';
 //import fundamentals from './img/fundamentals.svg'
@@ -53,6 +69,7 @@ const MainPage = () => {
               <p className="lead my-4">
                 PreQL is an interactive PostgreSQL visualization tool that provides developers with the ability to easily visualize their databases with cached, query-less requests to the backend and seamlessly generate SQL queries.
               </p>
+              <a href="" download>
               <button
                 className="btn white purple-background btn-lg"
                 data-bs-toggle="modal"
@@ -60,6 +77,8 @@ const MainPage = () => {
               >
                 Download for macOS
               </button>
+              </a>
+              <a href="" download>
               <button
                 className="btn white purple-background btn-lg"
                 data-bs-toggle="modal"
@@ -67,6 +86,7 @@ const MainPage = () => {
               >
                 Download for Windows
               </button>
+              </a>
             </div>
             <img
               className="filter-preql img-fluid w-50 d-none d-sm-block text-white"
