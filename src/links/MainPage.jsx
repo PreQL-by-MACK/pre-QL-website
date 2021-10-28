@@ -20,7 +20,7 @@ import { faDatabase, faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
 
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
-import Kyle from './img/kyle.jpeg';
+import Kyle from './img/kyle.png';
 import Adi from './img/adi.jpeg';
 // import preql from './preql-darwin-x64.zip';
 
@@ -192,11 +192,11 @@ const MainPage = () => {
             >
               <div className="accordion-body">
                 The information provided from your database will be locally stored in state for as long as you are running the application.
-                The second you close our app, the information is gone and you will have to enter the URI again in  order to see your data again. 
+                The second you close our app, the information is gone and you will have to enter the URI again in order to visualize your data again.
               </div>
             </div>
           </div>
-          {/* <!-- Item 2 --> */}
+          {/* <!-- Item 2 -->
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button
@@ -205,7 +205,7 @@ const MainPage = () => {
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
               >
-                Does our data get cached in your own database?
+                Does our data get cached in your database?
               </button>
             </h2>
             <div
@@ -214,12 +214,12 @@ const MainPage = () => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-                Absolutely not! At PreQl all we care about is ensuring your journey in SQL is more accessible and easy to understand 
+                Absolutely not! At PreQL all we care about is ensuring your journey in SQL is more accessible and easy to understand 
                 as well as creating an enriching user experience.  We do not care about the data within your database, therefore we don't want to store 
                 it. We have bigger problems other than your stupid tables. 
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- Item 3 --> */}
           <div className="accordion-item">
             <h2 className="accordion-header">
