@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
-import Kyle from './img/kyle.jpeg';
+import Kyle from './img/kyle.png';
 import Adi from './img/adi.jpeg';
 
 const Team = () => {

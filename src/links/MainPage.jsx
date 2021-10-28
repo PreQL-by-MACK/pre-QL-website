@@ -20,7 +20,7 @@ import { faDatabase, faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
 
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
-import Kyle from './img/kyle.jpeg';
+import Kyle from './img/kyle.png';
 import Adi from './img/adi.jpeg';
 // import preql from './preql-darwin-x64.zip';
 
