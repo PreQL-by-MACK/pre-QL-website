@@ -26,4 +26,14 @@ app.get('/Docs', (req, res) => {
   return res.status(200).sendFile(path.join(__dirname, '../src/index.html'));
 });
 
+app.use((req, res, next) => {
+  console.log('Error ', err)
+  res.status(404).send('The page you are looking for doesn\'t exist')
+})
+
+app.use((err, req, res, next) => {
+  console.log('Error ', err)
+  res.status(500).send('The page you are looking for doesn\'t exist')
+})
+
 app.listen(3000); //listens on port 3000 -> http://localhost:3000/

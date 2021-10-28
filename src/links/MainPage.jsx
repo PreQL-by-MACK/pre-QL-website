@@ -2,11 +2,27 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
+// import ZipLoader from 'zip-loader';
+
+// const preql = new ZipLoader('/preql-darwin-x64.zip');
+
+// preql.load().then( function () {
+
+//   console.log( 'loaded!' );
+//   console.log( preql.files );
+
+//   var json = preql.extractAsJSON( '/preql-darwin-x64.zip/data.json' );
+//   console.log( json );
+
+// } );
+ 
+// preql.load();
 
 import CT from './img/ct.jpeg';
 import Mike from './img/mike.jpeg';
 import Kyle from './img/kyle.jpeg';
 import Adi from './img/adi.jpeg';
+// import preql from './preql-darwin-x64.zip';
 
 import database from './img/database1.png';
 //import fundamentals from './img/fundamentals.svg'
@@ -53,6 +69,7 @@ const MainPage = () => {
               <p className="lead my-4">
                 PreQL is an interactive PostgreSQL visualization tool that provides developers with the ability to easily visualize their databases with cached, query-less requests to the backend and seamlessly generate SQL queries.
               </p>
+              <a href="https://preql.s3.amazonaws.com/apple.zip" download>
               <button
                 className="btn white purple-background btn-lg"
                 data-bs-toggle="modal"
@@ -60,6 +77,8 @@ const MainPage = () => {
               >
                 Download for macOS
               </button>
+              </a>
+              <a href="https://preql.s3.amazonaws.com/windows.zip" download>
               <button
                 className="btn white purple-background btn-lg"
                 data-bs-toggle="modal"
@@ -67,6 +86,7 @@ const MainPage = () => {
               >
                 Download for Windows
               </button>
+              </a>
             </div>
             <img
               className="filter-preql img-fluid w-50 d-none d-sm-block text-white"
@@ -128,6 +148,30 @@ const MainPage = () => {
     {/* <!-- FAQ --> */}
     <section id="questions" className="p-5">
       <div className="container">
+        <h2 className="text-center mb-4">Who Are We?</h2>
+        <p>
+          PostgreSQL is one of the most popular open source databases systems in our field. Every day companies are looking to transition
+          to this powerful, free directory to improve their data management and scale their business. This tool is not only safe but an efficient 
+          way to robustly store your data.
+          <br></br><br></br>
+          However, one of the main problems with PostgrSQL and most other SQL based DBs is their ease of use, visualization, and ability 
+          to quickly test queries. Tools do exist to try and counteract this, and they tend to utilize a lot of major functionality to complete this.
+          However, most are very slow to use, and are not very user friendly. There aren’t many easy ways to test query commands without constantly 
+          taxing your DB server. 
+          <br></br><br></br>
+          Thats where we come in.
+          <br></br><br></br>
+          Introducing PreQL, a data visualization and data caching app that allows for a seamless fusion of UX emphasis while allowing efficient retrieval 
+          and graphing of SQL tables. JOIN options and SQL commands are native to our single page application and allow for users to create new tables 
+          based on application inputs.
+          <br></br><br></br>
+           We’re pulling all relevant data from URI, provided by the user, to a postgresQL database. PreQL caches this data and organizes it 
+           to display populated tables based on user commands given through an easy-to-use set of dropdowns. Requiring little to no knowledge of SQL commands 
+           and allowing for manipulation of tables without having to access the database any additional times. Generating your SQL Queries will
+           be effortless and simple thanks your to our innovative design.
+           <br></br><br></br>
+        </p>
+        <br></br><br></br>
         <h2 className="text-center mb-4">Frequently Asked Questions</h2>
         <div className="accordion accordion-flush" id="questions">
           {/* <!-- Item 1 --> */}
@@ -139,7 +183,7 @@ const MainPage = () => {
                 data-bs-toggle="collapse"
                 data-bs-target="#question-one"
               >
-                Question 1?
+              Are you saving our information within the application?
               </button>
             </h2>
             <div
@@ -148,13 +192,8 @@ const MainPage = () => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                beatae fuga animi distinctio perspiciatis adipisci velit maiores
-                totam tempora accusamus modi explicabo accusantium consequatur,
-                praesentium rem quisquam molestias at quos vero. Officiis ad
-                velit doloremque at. Dignissimos praesentium necessitatibus
-                natus corrupti cum consequatur aliquam! Minima molestias iure
-                quam distinctio velit.
+                The information provided from your database will be locally stored in state for as long as you are running the application.
+                The second you close our app, the information is gone and you will have to enter the URI again in  order to see your data again. 
               </div>
             </div>
           </div>
@@ -167,7 +206,7 @@ const MainPage = () => {
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
               >
-                Question 2?
+                Does our data get cached in your own database?
               </button>
             </h2>
             <div
@@ -176,13 +215,9 @@ const MainPage = () => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                beatae fuga animi distinctio perspiciatis adipisci velit maiores
-                totam tempora accusamus modi explicabo accusantium consequatur,
-                praesentium rem quisquam molestias at quos vero. Officiis ad
-                velit doloremque at. Dignissimos praesentium necessitatibus
-                natus corrupti cum consequatur aliquam! Minima molestias iure
-                quam distinctio velit.
+                Absolutely not! At PreQl all we care about is ensuring your journey in SQL is more accessible and easy to understand 
+                as well as creating an enriching user experience.  We do not care about the data within your database, therefore we don't want to store 
+                it. We have bigger problems other than your stupid tables. 
               </div>
             </div>
           </div>
@@ -195,7 +230,7 @@ const MainPage = () => {
                 data-bs-toggle="collapse"
                 data-bs-target="#question-three"
               >
-                Question 3?
+                Are there any plans in the future for compatibility with NoSQL databases?
               </button>
             </h2>
             <div
@@ -204,17 +239,13 @@ const MainPage = () => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                beatae fuga animi distinctio perspiciatis adipisci velit maiores
-                totam tempora accusamus modi explicabo accusantium consequatur,
-                praesentium rem quisquam molestias at quos vero. Officiis ad
-                velit doloremque at. Dignissimos praesentium necessitatibus
-                natus corrupti cum consequatur aliquam! Minima molestias iure
-                quam distinctio velit.
+                As of right now, we have nothing in place to translate NoSQL databases. However we have another project in the works
+                to accomodate a multitude of different user needs. One of the features of this application will be to offer compatibility with 
+                NoSQL databases at the same level as our PreQL application.
               </div>
             </div>
           </div>
-          {/* <!-- Item 4 --> */}
+          {/* <!-- Item 4 -->
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button
@@ -241,9 +272,9 @@ const MainPage = () => {
                 quam distinctio velit.
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- Item 5 --> */}
-          <div className="accordion-item">
+          {/* <div className="accordion-item">
             <h2 className="accordion-header">
               <button
                 className="accordion-button collapsed"
@@ -269,7 +300,7 @@ const MainPage = () => {
                 quam distinctio velit.
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

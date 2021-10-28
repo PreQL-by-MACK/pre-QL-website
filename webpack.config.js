@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+// const ZipFilesPlugin = require('zip-file-webpack-plugin');
 
 module.exports = {
   entry: "/src/index.js",
@@ -56,6 +57,10 @@ module.exports = {
         loader: 'svg-inline-loader'
       },
       // {
+      //   test: /\.zip$/,
+      //   loader: 'zip-loader'
+      // }
+      // {
       //   test: /\.(png|jpg)$/,
       //   loader: 'url-loader'
       // },
@@ -67,7 +72,8 @@ module.exports = {
   },
   plugins: [new HtmlWebPackPlugin({
     template: './src/index.html',
-  })],
+    })
+  ],
   devServer: {
     static: {
       directory: path.join(__dirname, '/src'),
