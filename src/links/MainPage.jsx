@@ -214,7 +214,7 @@ const MainPage = () => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-                Absolutely not! At PreQl all we care about is ensuring your journey in SQL is more accessible and easy to understand 
+                Absolutely not! At PreQL all we care about is ensuring your journey in SQL is more accessible and easy to understand 
                 as well as creating an enriching user experience.  We do not care about the data within your database, therefore we don't want to store 
                 it. We have bigger problems other than your stupid tables. 
               </div>
