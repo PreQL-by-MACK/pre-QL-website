@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Link } from 'react-router-dom'
-import Logo from './links/img/Logo-no-box.jpeg';
+import Logo from './links/img/preql-website.png';
 
 const Navbar = () => {
   return (
