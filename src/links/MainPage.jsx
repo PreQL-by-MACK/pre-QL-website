@@ -150,25 +150,24 @@ const MainPage = () => {
       <div className="container">
         <h2 className="text-center mb-4">Who Are We?</h2>
         <p>
-          PostgreSQL is one of the most popular open source databases systems in our field. Every day companies are looking to transition
+          PostgreSQL is one of the most popular open source database systems in our field. Every day, companies are looking to transition
           to this powerful, free directory to improve their data management and scale their business. This tool is not only safe but an efficient 
           way to robustly store your data.
           <br></br><br></br>
-          However, one of the main problems with PostgrSQL and most other SQL based DBs is their ease of use, visualization, and ability 
-          to quickly test queries. Tools do exist to try and counteract this, and they tend to utilize a lot of major functionality to complete this.
-          However, most are very slow to use, and are not very user friendly. There aren’t many easy ways to test query commands without constantly 
-          taxing your DB server. 
+          However, one of the main problems with PostgreSQL and most other SQL based databases is their ease of use, visualization, and ability 
+          to quickly test queries. Tools do exist that attempt to solve these issues, but most are very slow to use, and are not very user friendly. There aren’t many easy ways to test query commands without constantly 
+          taxing your database server. 
           <br></br><br></br>
-          Thats where we come in.
+          That is where we come in.
           <br></br><br></br>
-          Introducing PreQL, a data visualization and data caching app that allows for a seamless fusion of UX emphasis while allowing efficient retrieval 
+          Introducing PreQL, a PostgreSQL data visualization and data caching application that allows for a seamless fusion of UX emphasis while allowing efficient retrieval 
           and graphing of SQL tables. JOIN options and SQL commands are native to our single page application and allow for users to create new tables 
           based on application inputs.
           <br></br><br></br>
-           We’re pulling all relevant data from URI, provided by the user, to a postgresQL database. PreQL caches this data and organizes it 
-           to display populated tables based on user commands given through an easy-to-use set of dropdowns. Requiring little to no knowledge of SQL commands 
-           and allowing for manipulation of tables without having to access the database any additional times. Generating your SQL Queries will
-           be effortless and simple thanks your to our innovative design.
+           We’re pulling all relevant data from URI, provided by the user, to a PostgreSQL database. PreQL caches this data and organizes it 
+           to display populated tables based on user commands given through an easy-to-use set of dropdowns. This requires little to no knowledge of SQL commands 
+           and allows for manipulation of tables without having to access the database multiple times. Generating your SQL queries will
+           be effortless and simple thanks to our innovative application.
            <br></br><br></br>
         </p>
         <br></br><br></br>
