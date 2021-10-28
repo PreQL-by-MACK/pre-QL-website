@@ -192,11 +192,11 @@ const MainPage = () => {
             >
               <div className="accordion-body">
                 The information provided from your database will be locally stored in state for as long as you are running the application.
-                The second you close our app, the information is gone and you will have to enter the URI again in  order to see your data again. 
+                The second you close our app, the information is gone and you will have to enter the URI again in order to visualize your data again.
               </div>
             </div>
           </div>
-          {/* <!-- Item 2 --> */}
+          {/* <!-- Item 2 -->
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button
@@ -205,7 +205,7 @@ const MainPage = () => {
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
               >
-                Does our data get cached in your own database?
+                Does our data get cached in your database?
               </button>
             </h2>
             <div
@@ -219,7 +219,7 @@ const MainPage = () => {
                 it. We have bigger problems other than your stupid tables. 
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- Item 3 --> */}
           <div className="accordion-item">
             <h2 className="accordion-header">
